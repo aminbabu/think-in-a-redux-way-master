@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version"
+}

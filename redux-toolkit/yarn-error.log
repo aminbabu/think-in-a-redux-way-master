@@ -1,0 +1,42 @@
+Arguments: 
+  C:\laragon\bin\nodejs\node-v19.7.0-win-x64\node.exe C:\laragon\bin\yarn\bin\yarn.js add @redux/toolkitclear
+
+PATH: 
+  C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\Users\AminBabu\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\GitHub CLI;C:\laragon\bin\git\cmd;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;C:\laragon\bin\composer;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin;C:\laragon\bin\nginx\nginx-1.19.10;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v19.7.0-win-x64;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-8.2.3-Win32-vs16-x64;C:\laragon\bin\python\python-3.11.0;C:\laragon\bin\python\python-3.11.0\Scripts;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\bin\yarn\bin;C:\laragon\usr\bin;C:\Users\AminBabu\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\AminBabu\AppData\Roaming\Composer\vendor\bin;C:\Users\AminBabu\AppData\Roaming\npm;C:\Users\AminBabu\AppData\Local\Microsoft\WindowsApps;C:\Users\AminBabu\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.14.0
+
+Node version: 
+  19.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@redux%2ftoolkitclear: Not found
+      at params.callback [as _callback] (C:\laragon\bin\yarn\lib\cli.js:66255:18)
+      at self.callback (C:\laragon\bin\yarn\lib\cli.js:129399:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (C:\laragon\bin\yarn\lib\cli.js:130371:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (C:\laragon\bin\yarn\lib\cli.js:130293:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "redux-toolkit",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Amin Babu",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

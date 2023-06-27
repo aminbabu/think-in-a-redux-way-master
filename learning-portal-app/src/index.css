@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base layer */
+@layer base {
+  body {
+    @apply text-sm md:text-base;
+  }
+}
+
+/* componetns layer */
+@layer components {
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #475569 #64748b;
+  }
+
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    @apply w-3 h-3;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply bg-slate-400 hover:bg-slate-400/75 active:bg-slate-400/75;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-600 hover:bg-slate-700 active:bg-slate-700;
+  }
+
+  .modal ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  .modal ::-webkit-scrollbar-track {
+    @apply rounded-full;
+  }
+
+  .section {
+    @apply py-16 lg:py-24;
+  }
+
+  .form-group > *:first-child input {
+    @apply rounded-t-md;
+  }
+
+  .form-group > *:last-child input {
+    @apply rounded-b-md;
+  }
+
+  .link {
+    @apply text-violet-600 underline hover:text-violet-500 hover:no-underline;
+  }
+
+  .auth-form {
+    @apply pt-12 sm:pt-24 md:pt-28;
+  }
+
+  input[type="checkbox"]:checked {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23fff" className="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>');
+    @apply bg-[length:1em_1em] bg-no-repeat bg-center;
+  }
+
+  thead {
+    @apply whitespace-nowrap;
+  }
+
+  th,
+  td {
+    @apply px-3 py-2;
+  }
+
+  .table-responsive {
+    @apply max-lg:overflow-x-auto;
+  }
+
+  .table-responsive table {
+    @apply max-lg:whitespace-nowrap;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .modal.hide {
+    @apply opacity-0 invisible;
+  }
+
+  .modal.show {
+    @apply opacity-100 visible;
+  }
+
+  .placeholder {
+    @apply h-5 animate-pulse bg-slate-300 block;
+  }
+
+  input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+
+  .modal-dialog-scrollable {
+    @apply max-h-[calc(100vh_-_4.5rem)] md:max-h-[calc(100vh_-_6rem)] lg:max-h-[calc(100vh_-_7rem)] overflow-y-auto;
+  }
+
+  select {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23f8fafc7f" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+    @apply bg-[length:1em_1em] bg-no-repeat bg-[left_98%_center];
+  }
+
+  .alert {
+    @apply p-4 rounded-md text-sm flex justify-between gap-4;
+  }
+
+  .alert-danger {
+    @apply bg-red-300 text-white;
+  }
+
+  .alert-success {
+    @apply bg-green-300 text-slate-900;
+  }
+
+  .icon {
+    @apply inline-block w-4 h-4 transition-all duration-150;
+  }
+}
+
+/* utilities layer */
+@layer utilities {
+}

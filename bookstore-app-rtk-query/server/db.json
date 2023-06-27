@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "name": "Slow Horses (Deluxe Edition)",
+      "author": "Mick Herron",
+      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
+      "price": 14,
+      "rating": 3,
+      "featured": false,
+      "id": 1
+    },
+    {
+      "name": "The Last Thing He Told Me: A Novel",
+      "author": "Laura Dave",
+      "thumbnail": "https://m.media-amazon.com/images/P/1501171348.01._SCLZZZZZZZ_SX500_.jpg",
+      "price": 13.99,
+      "rating": 4,
+      "featured": false,
+      "id": 2
+    },
+    {
+      "name": "Eloquent JavaScript, 3rd Edition",
+      "author": "Marijn Haverbeke",
+      "thumbnail": "https://m.media-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "price": 23.99,
+      "rating": 4,
+      "featured": true,
+      "id": 3
+    },
+    {
+      "name": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
+      "author": "Bessel van der Kolk & Bessel van der Kolk M.D.",
+      "thumbnail": "https://m.media-amazon.com/images/I/41D3enj6JVS._SX324_BO1,204,203,200_.jpg",
+      "price": 11.4,
+      "rating": 5,
+      "featured": false,
+      "id": 4
+    },
+    {
+      "name": "Verity",
+      "author": "Colleen Hoover",
+      "thumbnail": "https://m.media-amazon.com/images/I/41ZLnc34EiL._SX332_BO1,204,203,200_.jpg",
+      "price": 10.98,
+      "rating": 4,
+      "featured": false,
+      "id": 5
+    },
+    {
+      "name": "Ugly Love: A Novel",
+      "author": "Colleen Hoover",
+      "thumbnail": "https://m.media-amazon.com/images/I/41mBCtaJ1XL._SX320_BO1,204,203,200_.jpg",
+      "price": 9,
+      "rating": 4,
+      "featured": true,
+      "id": 6
+    }
+  ]
+}
